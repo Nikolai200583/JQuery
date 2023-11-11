@@ -34,7 +34,7 @@ function createTodo(todosData) {
       });
       $(this).remove();
     });
-    if (isComplite === true) {
+    if (isComplite) {
       $(".comp").append(task);
       task.append(del);
     } else {
